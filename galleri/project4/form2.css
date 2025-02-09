@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.background {
+    width: 100vw;
+    height: 75vh;
+
+    background: url('images/blue.png');
+    background-position: top;
+    background-size: contain;
+    background-attachment: absolute;
+    background-repeat: no-repeat;
+}
+
+.text {
+    text-align: center;
+    font-family: "heebo";
+    margin-top: 120px;
+}
+
+h1 {
+    color: #D3E10E;
+    font-size: 32pt;
+    padding-bottom: 20px;
+}
+
+p {
+    color: #F9F9F9;
+    font-size: 16pt;
+}
+
+.form {
+    width: 100vw;
+    height: 20vh;
+    background-color: #fff;
+
+
+
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    justify-content: space-evenly;
+    margin: 50px;
+
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    font-family: "heebo";
+    font-size: 16pt;
+    color: #011560;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+    background-color: #E5EEFF;
+    box-shadow: 1 em #f6f6f9;
+    border: 1px solid#f6f6f9;
+    border-bottom: 2px solid #D3E10E;
+
+}
+
+button {
+    width: 170px;
+    height: 40px;
+    background-color: #D3E10E;
+    color: #011560;
+    font-size: 1em;
+    font-family: "heebo";
+    border: 1px solid #D3E10E;
+    margin-top: 2em;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .background {
+        width: 100vw;
+        height: 40vh;
+        align-items: center;
+        background-size: cover;
+
+    }
+
+    h1 {
+        font-size: 22pt;
+    }
+
+    .form {
+        width: 100vw;
+        height: 60vh;
+
+    }
+
+    form {
+        flex-direction: column;
+
+        align-items: center;
+        margin: 15vh auto;
+
+    }
+
+}

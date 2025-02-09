@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 15px, rgba(20, 87, 87, 0.5);
+    position: fixed;
+
+}
+
+.logo {
+    width: 200px;
+    height: 50px;
+    background-color: #F6F6F6;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
+.name {
+    background-color: aqua;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    direction: rtl;
+    box-shadow: 3px, rgba(20, 87, 87, 0.5);
+    line-height: 2;
+    padding: 120px;
+
+}
+
+h1 {
+    font-size: 26pt;
+    font-family: "Heebo", serif;
+    text-align: center;
+    color: #000;
+}
+
+p {
+    font-size: 16pt;
+    font-family: "Heebo",
+        serif;
+    color: black;
+}
+
+.button-file {
+    width: 200px;
+    height: 40px;
+    background-color: #ffff;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 30px;
+    border: 2px solid #F6F6F6;
+    color: #000;
+    text-decoration: none;
+    font-family: "Heebo", serif;
+}
+
+
+.button {
+    margin: 80px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+
+
+}
+.images {
+    display: flex;
+    justify-content: center;
+  height: 100px;
+}
+
+.project {
+    background-color: #fff;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+    
+    border: 2px SOLID rgba(20, 87, 87, 0.212);
+
+    padding: 100px;
+
+    img {
+        width: 80%;
+        height: 450px;
+box-shadow: 0 0 15px 2px #7777;
+ transition: all .7s ease-in-out; 
+    }
+}
+
+footer {
+    width: 100%;
+    background-color: aqua;
+    box-shadow: 3px, rgba(20, 87, 87, 0.212);
+    direction: ltr;
+    padding-top: 20px;
+}
+
+.link {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img {
+    height: 50px;
+    width: 50px;
+}
+
+
+h2 {
+    font: normal normal bold 16px/24px "heebo";
+    color: #2c2c2c;
+    margin-left: 20px; 
+   
+}
+
+.container-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        padding: 0.5rem;
+
+    }}
+    img[src$="png"]:hover{
+         transition: all .5s ease-in-out;
+     transform: scale(1.1);
+}
