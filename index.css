@@ -167,7 +167,7 @@ section p {
   h2 {
     font-size: 14pt;
     margin: 1em;
-    /*  margin-right: 1rem;*/
+
     font-family: sans-serif;
   }
 
@@ -346,10 +346,6 @@ img[src$="png"]:hover {
 }
 
 @media (max-width: 768px) {
-  /* section {
-        overflow: hidden;
-    }*/
-
   .logo {
     width: 150px;
     height: 50px;
@@ -359,9 +355,7 @@ img[src$="png"]:hover {
   .picture1 {
     display: none;
   }
-  .container{
-    
-  }
+
   .menu {
     height: 50px;
   }
@@ -369,8 +363,7 @@ img[src$="png"]:hover {
   .hamburger {
     margin: 0.2rem;
     display: block;
-    /* width: 20px;
-        height: 20px;*/
+
     color: rgb(16, 141, 141);
     left: 57vw;
     font-weight: bold;
@@ -384,7 +377,7 @@ img[src$="png"]:hover {
     padding-right: 0;
   }
   nav ul {
-    display: none;
+    display: block;
     flex-direction: column;
     height: 200px;
     left: 50vw;
@@ -468,7 +461,7 @@ img[src$="png"]:hover {
 
   .container-form {
     width: 100vw;
-    /* height: 400px;*/
+
     display: flex;
     flex-direction: column;
     align-items: center;
