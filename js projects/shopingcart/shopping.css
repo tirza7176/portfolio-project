@@ -150,10 +150,13 @@ li {
   .container-product {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
     width: 100vw;
-
     gap: 1em;
+  }
+  .container {
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
   }
 }
 @media (max-width: 820px) {
@@ -179,5 +182,3 @@ li {
     width: 100vw;
   }
 }
-/*
-*/
