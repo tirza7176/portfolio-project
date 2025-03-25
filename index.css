@@ -23,11 +23,9 @@ nav {
   direction: rtl;
   padding: 15px;
 }
-#chec {
-  display: none;
-}
 
-.hamburger {
+nav input[type="checkbox"],
+nav label {
   display: none;
 }
 
@@ -152,7 +150,9 @@ section p {
   text-align: center;
   height: 1000px;
 }
-
+#galerijs {
+  height: 700px;
+}
 .item {
   width: 300px;
   padding: 1rem;
@@ -369,15 +369,13 @@ img[src$="png"]:hover {
     font-weight: bold;
     font-size: 3em;
   }
-  #chec {
+
+  input[type="checkbox"]:not(:checked) + ul {
     display: none;
   }
 
-  label[for="chec"] {
-    padding-right: 0;
-  }
   nav ul {
-    display: block;
+    display: flex;
     flex-direction: column;
     height: 200px;
     left: 50vw;
@@ -385,18 +383,11 @@ img[src$="png"]:hover {
   }
 
   nav ul li a {
-    width: unset;
+    width: 150px;
+
     text-align: right;
     background-color: #fff;
     padding-right: 1rem;
-  }
-
-  nav .hamburger:hover + ul {
-    display: block;
-    display: flex;
-    flex-direction: column;
-    height: 200px;
-    width: 30vw;
   }
 
   .container {
@@ -423,6 +414,9 @@ img[src$="png"]:hover {
     margin-bottom: 1rem;
   }
   .project {
+    height: unset;
+  }
+  #galerijs {
     height: unset;
   }
   .main {
