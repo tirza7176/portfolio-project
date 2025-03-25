@@ -25,7 +25,7 @@ const getCountry = async () => {
 
         flag.src = country.flags.png;
 
-        
+
         errorMessage.innerText = "";
     } else {
         errorMessage.innerText = "Country not found.Please try again"

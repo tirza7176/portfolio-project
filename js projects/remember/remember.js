@@ -20,6 +20,7 @@ function startGame() {
     eScoreb.textContent = scores.b;
 
     const eTurn = document.getElementById("eTurn");
+    eTurn.textContent = "שחקן א"
     const btnr = document.getElementById("reset")
     while (images.length > 0) {
         const rand = Math.trunc(Math.random() * images.length)
