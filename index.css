@@ -52,6 +52,16 @@ nav ul li a:hover {
   background-color: aqua;
   font-weight: bold;
 }
+nav ul li ul li {
+  float: none;
+}
+nav ul li ul {
+  display: none;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
 
 .logo {
   width: 200px;
